@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css" />
     <title>the basic language of web is html</title>
   </head>
 
@@ -13,10 +14,15 @@
       <h6>the basic language of web is Html</h6> -->
     <header>
       <h1>The Code Magazine [Demo]</h1>
-
+      <!-- a tag with # used for undirected link its usefull in some casses -->
       <nav>
-        <a href="blog.html">Blog</a>
-        <h3>one of the best website for new web delevoper</h3>
+        <a href="#">Blog</a>
+        <a href="#">Challenges</a>
+        <a href="#">Flexbox</a>
+        <a href="#">Css Grid</a>
+      </nav>
+      <p>one of the best website for new web delevoper</p>
+      <nav>
         <a href="https://developer.mozilla.org/en-US/" target="_blank"
           >MDN DOCS</a
         >
@@ -25,9 +31,12 @@
     <article>
       <header>
         <h2>The basic language of web is Html</h2>
-        <p>Posted by <strong>laura jones</strong> on monday, june 21st 2027</p>
+        <p id="author">
+          Posted by <strong>laura jones</strong> on monday, june 21st 2027
+        </p>
         <img src="images/image 1.jpg" alt="" width="500px" height="200px" />
       </header>
+
       <p>
         All the modren websites and web applications are built using three
         <em> fundamentals</em> technologies are Html, css and javascript. These
@@ -37,6 +46,7 @@
         in this post, let's focus on Html. we will learn what Html is all about,
         and why yoo too should learn it
       </p>
+
       <h3>what is Html</h3>
       <p>
         HTML stand for <strong>H</strong>ypertext <strong>M</strong>arkup
@@ -61,30 +71,35 @@
         <li>Lorem, ipsum dolor.</li>
       </ul>
     </article>
-    <div>
-      <h4>using iframe for copyying vedios from youtube to our website</h4>
-      <iframe
-        width="550"
-        height="300"
-        src="https://www.youtube.com/embed/tplJ3GvhNAI"
-        title="World&#39;s Most Powerful Laptop !"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </div>
+
+    <p>
+      <strong
+        >using iframe for copyying vedios from youtube to our website</strong
+      >
+    </p>
+    <iframe
+      width="550"
+      height="300"
+      src="https://www.youtube.com/embed/tplJ3GvhNAI"
+      title="World&#39;s Most Powerful Laptop !"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
     <aside>
-      <h3>Related posts</h3>
-      <ul>
+      <h4>Related posts</h4>
+      <ul class="Related">
         <li>
           <img
             src="images/web development.jpeg"
             alt="web structure"
             width="75"
             height="75"
-          /><a href="#">How to learn Web development</a>
-          <p>By munawar Bettani</p>
+          />
+          <a href="#">How to learn Web development</a>
+          <p class="Related-author">By Munawar Bettani</p>
         </li>
         <li>
           <img
@@ -94,20 +109,22 @@
             height="75"
           />
           <a href="#">The unknown powers of css</a>
-          <p>By munawar bettani</p>
+          <p class="Related-author">By Munawar Bettani</p>
         </li>
         <li>
           <img
             src="images/java script.png"
-            alt="javascript code"
+            alt="javascript coding"
             width="75"
             height="75"
           />
-          <a href="#">Why javascript is awsome</a>
-          <p>By munawar bettani</p>
+          <a href="#">why javascript is important</a>
+          <p class="Related-author">By Munawar Bettani</p>
         </li>
       </ul>
     </aside>
-    <footer>copyright &copy;2027 by the code magzine</footer>
+    <footer>
+      <p id="copyright">copyright &copy;2027 by the code magzine</p>
+    </footer>
   </body>
 </html>
