@@ -10,6 +10,11 @@ body {
   border-top: 10px solid #1098ad;
   margin: 0;
 }
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px;
@@ -17,6 +22,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -35,6 +41,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -164,3 +171,8 @@ a:active {
 footer p {
   color: green !important;
 } */
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
